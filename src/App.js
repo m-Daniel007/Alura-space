@@ -1,11 +1,10 @@
-import "./App.css";
+import './styles/estilosGlobais.scss'
+import PaginaInical from "./components/pages/PaginaInicial/PaginaInicial";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <h1>Alura Space</h1>
+      <PaginaInical />
     </div>
   );
 }
-
-export default App;
